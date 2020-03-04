@@ -227,7 +227,8 @@
               data-error="Date of Birth is required"
               required="required"
               id="address"
-              placeholder="MM-DD-YYYY"
+              pattern="\d{2}[-/]\d{2}[-/]\d{2,4}"
+              placeholder="MM/DD/YYYY"
             />
             <div class="help-block with-errors"></div>
           </div>
