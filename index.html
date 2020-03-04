@@ -47,7 +47,7 @@
     <section class="page-header">
       <h1 class="project-name">Yoon Law Authorization Form</h1>
       <h2 class="project-tagline">
-        Announcement Regarding Lawsuit Against Pinnacle Claims Management, Inc.
+        Announcement Regarding Lawsuit Against The Boeing Company
         For Labor Code Violations
       </h2>
     </section>
@@ -179,7 +179,7 @@
         <input
           type="hidden"
           name="PowerFormId"
-          value="6ea18cb3-7ee8-4b0f-817a-2144015cf9be"
+          value="741a09fb-ecf4-4143-a9f6-cc423c065158"
         />
         <div class="form-group has-feedback">
           <label for="full-name" class="control-label col-sm-4"
@@ -216,55 +216,20 @@
           </div>
         </div>
         <div class="form-group has-feedback">
-          <label for="address" class="control-label col-sm-4"
-            >Home Address</label
+          <label for="DOB" class="control-label col-sm-4"
+            >Date of Birth</label
           >
           <div class="col-sm-8">
             <input
               type="text"
-              name="Address"
+              name="DOB"
               class="form-control"
-              data-error="Home address is required"
+              data-error="Date of Birth is required"
               required="required"
               id="address"
-              placeholder="Address, City, State ZIP"
+              placeholder="MM-DD-YYYY"
             />
             <div class="help-block with-errors"></div>
-          </div>
-        </div>
-        <div class="form-group has-feedback">
-          <label for="phone-number" class="control-label col-sm-4"
-            >Phone Number</label
-          >
-          <div class="col-sm-8">
-            (<input
-              style="padding-right: 0; width: 25%; display: inline-block;"
-              type="text"
-              data-error="Phone Number invalid"
-              name="AreaCode"
-              pattern="[0-9]{3}"
-              required="required"
-              title="Area Code should be a three digit number"
-              maxlength="3"
-              class="form-control"
-              id="phone-number"
-              placeholder="NNN"
-            />)
-            <input
-              style="float: right; width: 65%;"
-              type="text"
-              name="PhoneNumber"
-              data-error="Phone Number invalid"
-              maxlength="8"
-              class="form-control"
-              placeholder="NNN-NNNN"
-              pattern="[0-9]{3}-?[0-9]{4}"
-              required="required"
-              title="Phone Number should be in the format XXX-XXXX or XXXXXXX"
-            />
-            <div class="help-block with-errors">
-              Area code: NNN, Number: NNN-NNNN
-            </div>
           </div>
         </div>
         <div class="form-group with-feedback">
